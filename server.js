@@ -57,5 +57,5 @@ app.get('/bad', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Server is runnig in ${port}  port`);
+    console.log(`Server is runnig in 3000`);
 });
