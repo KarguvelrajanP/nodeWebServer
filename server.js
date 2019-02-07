@@ -56,6 +56,4 @@ app.get('/bad', (req, res) => {
     res.send({ Error: 'Bad request' })
 })
 
-app.listen(port, () => {
-    console.log(`Server is runnig in 3000`);
-});
+app.listen(process.env.PORT || 3000)
